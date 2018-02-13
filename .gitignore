@@ -10,6 +10,7 @@
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/private/scripts/quicksilver
+/web/libraries/
 
 
 # Ignore scaffold files
@@ -59,9 +60,10 @@ web/web.config
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/private/scripts/quicksilver
+/web/libraries/
 
 # Ignore Drupal's file directory
-web/sites/default/files
+web/sites/*/files
 
 # Pantheon commits a settings.php for environment-specific settings.
 # Place local settings in settings.local.php
